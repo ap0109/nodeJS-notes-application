@@ -1,0 +1,11 @@
+To add a note
+node app.js Add --title='New Title' --body='New Body'
+
+To Remove a note
+node app.js Remove --title='New Title'
+
+To Read a note
+node app.js Read --title='New Title'
+
+To List all the notes
+node app.js List
