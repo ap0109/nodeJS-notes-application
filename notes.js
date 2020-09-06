@@ -8,6 +8,7 @@ const readNote = (title) => {
    const noteToRead =  notes.find((note) => note.title === title)
    debugger
    if(noteToRead){
+      //test
       console.log(chalk.green.inverse(noteToRead.body))
    }else{
       console.log(chalk.red.inverse("No Note Found"))
